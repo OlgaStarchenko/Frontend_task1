@@ -1,15 +1,17 @@
+//Декларативный стиль:
+
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+//Императивный стиль:
 function App() {
   const [count, setCount] = useState(0)
   const currentYear = new Date().getFullYear()
 
-
-
   return (
+	//Декларативный стиль:
     <>
       <div>
         <a href="https://vite.dev" target="_blank">
@@ -35,5 +37,5 @@ function App() {
     </>
   )
 }
-
+//Императивный стиль:
 export default App
